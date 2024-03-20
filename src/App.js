@@ -1,9 +1,10 @@
+import PasswordGenerator from "./password-component";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h2>Building a password generator project</h2>
+      <PasswordGenerator />
     </div>
   );
 }
